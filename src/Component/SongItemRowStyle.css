@@ -1,0 +1,22 @@
+
+.trendingSongHeading{
+    color: black;
+    position:absolute;
+    left: 5vw;
+    margin-top: 8vw;
+    font-weight: bold;
+}
+
+.songListRow{
+    position: relative;
+    display: flex;
+    width: 75vw;
+    margin-left: 2vw;
+    overflow: hidden;
+    top: 6vw;
+}
+.songItem
+{
+    /* background-color: aqua; */
+}
+

@@ -1,0 +1,146 @@
+.mynavbar{
+    position: fixed;
+    z-index: 1;
+    display: flex;
+    height: 8vh;
+    padding-left: 3vw;
+    background-color: #f5f5f5;
+}
+
+#threeBar
+{
+    position: absolute;
+    top:1.2vw;
+    left:4.7vw;
+    width: 1.3vw;
+    height: auto;
+    color: rgb(52, 52, 52);
+    cursor: pointer;
+}
+
+#logo{
+    height: 2.1vw;
+    margin: .8% 2.3% .5% 5%;
+}
+
+.mysearchBar{
+    display: flex;
+    align-items: center;
+    /* margin: 1vw; */
+    padding-left: 1vw;
+}
+#searchIcon{
+    position: absolute;
+    display: flex;
+    left: 17vw;
+    /* margin: 0 20px; */
+    cursor:text;
+    background-color: white;
+    color: rgb(172, 167, 167);
+    border: none;
+    size: .1vw;
+}
+#input{
+    padding: 0 4vw;
+    width: 25vw;
+    height: 5vh;
+    border: 1px solid rgb(192, 192, 192);
+    border-radius: 3vw;
+}
+
+.myextraButton{
+    display: flex;
+    justify-content: center;
+}
+/* .button{
+    font-weight: bold;
+    width: 7vw;
+    height: 1.8vw;
+    color: red;
+    background-color: white;
+    border: 1px solid red;
+    border-radius: 2vw;
+    margin: 1vw 1vw 1vw 1vw;
+    cursor: pointer;
+    font-size: 10px;
+} */
+.myGoAdFreeButton{
+    font-weight: bold;
+    width: 7vw;
+    height: 1.8vw;
+    color: red;
+    background-color: white;
+    border: 1px solid red;
+    border-radius: 2vw;
+    margin: 1vw 1vw 1vw 1vw;
+    cursor: pointer;
+    font-size: 10px;
+    margin-left: 15vw;
+}
+.myGetGaanaPlusButton
+{
+    font-weight: bold;
+    letter-spacing: .5px;
+    width: 8vw;
+    height: 1.8vw;
+    color: red;
+    background-color: white;
+    border: 1px solid red;
+    border-radius: 2vw;
+    margin: 1vw 1vw 1vw 1vw;
+    cursor: pointer;
+    font-size: 10px;
+
+}
+.myextraButtonbadge
+{
+    background-color: red;
+    color: white;
+    position: absolute;
+    align-items: center;
+    top: .5vw;
+    width: 2.2vw;
+    height: 1.2vw;
+    border: 1px solid red;
+    border-radius: 20px;
+    cursor: pointer;
+}
+
+#languageConverterIcon
+{
+    width: 2.4vw;
+    height: 1.8vw;
+    margin: 1vw 2vw;
+    cursor: pointer;
+    color: rgb(154, 151, 151);
+}
+
+#changeMode
+{
+
+    width: 2vw;
+    height: 1.5vw;
+    margin: 1vw 1vw 1.2vw .1vw;
+    cursor: pointer;
+    color: rgb(154, 151, 151);
+}
+
+#logInSignUp{
+    background-color: #f5f5f5;
+    border: unset;
+    font-size: 10px;
+    font-weight: bold;
+    margin-left: 0vw;
+    margin-right: 1vw;
+    width: 10vw;
+    top: 1vw;
+    cursor: pointer;
+}
+
+.languageAndSignIn
+{
+    background-color: #f5f5f5;
+    display: flex;
+    position: relative;
+    left: 7vw;
+}

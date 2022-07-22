@@ -1,0 +1,42 @@
+.myfirstLine{
+    position: fixed;
+    top: 4vw;
+    margin-left: 2.5vw;
+    width: 75vw;
+    height: 3vw;
+    z-index: 1;
+    background-color: white;
+}
+ul{
+    display: flex;
+    padding: 0 1.3vw;
+}
+li  {
+    margin: .4vw 0vw;
+    padding: 0 1vw;
+    list-style-type: none;
+}
+/* 
+.mydropdownButton
+{
+    background-color: white;
+    border: none;
+    font-size: 1vw;
+    color: rgb(72, 72, 72);
+}
+
+.mydropdownButton:hover{
+    color:rgb(72, 72, 72);
+    border-bottom: 2px solid red;
+} */
+
+.mymainLink{
+    text-decoration: none;
+    color: rgb(72, 72, 72);
+    cursor: pointer;
+}
+
+.mymainLink:hover{
+    border-bottom: 2px solid red;
+    color:rgb(72, 72, 72);
+}

@@ -1,0 +1,29 @@
+.songItem
+{
+    display: flex;
+    position: relative;
+    margin: 4vw 0 0 3vw;
+    width: 160px;
+    height: 220px;
+    justify-content: center;
+    align-items: center;
+    /* overflow: auto; */
+}
+
+.myImageCard{
+    display: flex;
+    /* position: relative; */
+    width: 160px;
+    height: 160px;
+    border: none;
+}
+
+.myImage{
+    border-radius: 15px;
+    cursor: pointer;
+}
+
+.myCardText{
+    margin: .2vw 0 0 .45vw;
+    cursor: pointer;
+}
