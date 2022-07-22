@@ -13,7 +13,7 @@ const img8 = require("./imageForCarousel/8.jpeg");
 const ImageCarousel = () => {
     return(
         <div id="carouselExampleControls" className="setMyCarousel carousel slide" data-bs-ride="carousel">
-            <div className="carousel-inner">
+            <div className="myCarouselInner carousel-inner">
                 <div className="carousel-item active">
                 <img src={img1} className="d-block w-100" alt="..."/>
                 </div>

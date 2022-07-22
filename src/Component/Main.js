@@ -8,7 +8,7 @@ const Main = () => {
     <div className="myfirstLine">
       <nav>
         <ul>
-          <li><Link className="mymainLink" to="/">All</Link></li>
+          <li><Link className="mymainLink" id="firstChildOfMainLink" to="/">All</Link></li>
           <li><Link className="mymainLink" to="/">Trending Songs</Link></li>
           <li><Link className="mymainLink" to="/">New Songs</Link></li>
           <li><Link className="mymainLink" to="/">Old Songs</Link></li>

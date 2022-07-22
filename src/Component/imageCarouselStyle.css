@@ -3,7 +3,15 @@
     padding-top: 0vw;
     top:7vw;
     width: 60vw;
+    justify-content: center;
 }
+
+.myCarouselInner
+{
+    margin-left: 5vw;
+}
+
+
 img{
     height: 25vw;
 }

@@ -65,6 +65,8 @@
     font-size: 10px;
 } */
 .myGoAdFreeButton{
+    position: relative;
+    left: 5vw;
     font-weight: bold;
     width: 7vw;
     height: 1.8vw;
@@ -79,6 +81,8 @@
 }
 .myGetGaanaPlusButton
 {
+    position: relative;
+    left: 5vw;
     font-weight: bold;
     letter-spacing: .5px;
     width: 8vw;
@@ -98,7 +102,7 @@
     color: white;
     position: absolute;
     align-items: center;
-    top: .5vw;
+    top: -.5vw;
     width: 2.2vw;
     height: 1.2vw;
     border: 1px solid red;

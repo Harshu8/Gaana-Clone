@@ -8,10 +8,10 @@ const img4 = require("./ImageForTrendingSection/4.jpeg");
 const img5 = require("./ImageForTrendingSection/5.jpeg");
 const img6 = require("./ImageForTrendingSection/6.jpeg");
 
-const SongItemRow = () => {
+const SongItemRow = (props) => {
     return(
         <div>
-            <h3 className="trendingSongHeading"> Trending Song</h3>
+            <h3 className="trendingSongHeading"> {props.titleName}</h3>
             <div className="songListRow">
                 <OneSongItem className="songItem" songIcon={img1} songName="Kesariya" />
                 <OneSongItem className="songItem" songIcon={img2} songName="Peaches" />

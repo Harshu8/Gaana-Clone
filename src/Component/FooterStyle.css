@@ -1,0 +1,127 @@
+.mainDiv{
+    margin-top: 8vw;
+    width: 80vw;
+    height: 75vw;
+    background-color: #fafafb;
+}
+
+.start{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.mainHeading{
+    margin: 3vw 0 1.5vw 0;
+    font-weight: bolder;
+}
+
+.mainParaDiv
+{
+    width: 45vw;
+    text-align: center;
+}
+.mainPara{
+    font-size: smaller;
+    color: #b3b3b7;
+}
+
+.line{
+    color: rgb(55, 55, 55);
+    width: 70vw;
+    height: 5px;
+}
+
+.icons{
+    margin: 1vw 0;
+    width: 10vw;
+}
+
+.fbIcon{
+    padding: 10px;
+    width: 2.5vw;
+    height: auto;
+    margin: 0 1vw;
+    color: white;
+    background-color: #3b5998;
+    border-radius: 100px; 
+}
+
+.twitterIcon{
+    padding: 6px;
+    width: 2.5vw;
+    height: auto;
+    margin: 0 1vw;
+    color: white;
+    background-color: #52c1ec;
+    border-radius: 100px;
+}
+
+
+.someLinks{
+    margin: auto;
+    height: 2vw;
+}
+
+.linkListItem{
+    list-style: none;
+    font-size: smaller;
+}
+
+.headingQuicklinks{
+    font-size: medium;
+    font-weight: 650;
+}
+
+.controlAllDivs{
+    display: flex;
+    
+}
+
+.quicklinksDiv{
+    display: flex;
+    width: 20vw;
+    margin-top: 1vw;
+    margin-left: 5vw;
+    margin-right: 2vw;
+}
+
+.quicklinksTitle{
+    font-weight: 500;
+    font-size:medium;
+    width: 100%;
+}
+
+.quicklinksSubtitle{
+    font-weight: 100;
+    font-size: small;
+    margin-bottom: 5px;
+    color: #808080;
+}
+
+.viewAll{
+    font-weight: 600;
+    font-size: small;
+    color: #e73135;
+}
+
+.lastDiv{
+    margin: 0;
+    width: 80vw;
+}
+
+.copyrightPara{
+    font-weight: 100;
+    font-size: small;
+    color: #808080;
+    text-align: center;
+    margin: 1vw 0;
+}
+
+.lineCopyrightPara{
+    color: rgb(55, 55, 55);
+    width: 70vw;
+    margin-left: 5vw;
+    height: 5px;
+
+}
