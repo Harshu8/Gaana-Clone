@@ -14,10 +14,10 @@ const Footer = () => {
 
                 <hr className="line"/>
                 <div className="icons">
-                    {/* <button class="fbIcon"><BsFacebook/></button> */}
-                    <FaFacebookF class="fbIcon"/>
-                    {/* <button  class="twitterIcon"><AiOutlineTwitter/></button> */}
-                    <AiOutlineTwitter class="twitterIcon"/>
+                    {/* <button className="fbIcon"><BsFacebook/></button> */}
+                    <FaFacebookF className="fbIcon"/>
+                    {/* <button  className="twitterIcon"><AiOutlineTwitter/></button> */}
+                    <AiOutlineTwitter className="twitterIcon"/>
                 </div>
                 <hr className="line"/>
                 <div className="someLinks">

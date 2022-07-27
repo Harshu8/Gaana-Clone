@@ -7,6 +7,114 @@
     display: flex;
 }
 
+.sideNav{
+    background-color: white;
+    display: none;
+    border-right: 1px solid #4b4b4b ;
+}
+
+.sidebarMenuItemList{
+    position: absolute;
+    position: fixed;
+    width: 18vw;
+    height: 100%;
+    z-index:2;
+    background-color: white;
+    margin: 4vw 0;
+    padding-bottom: 6vw;
+    display: flex;
+    flex-direction: column;
+    overflow: scroll;
+    border-right: 1px solid #404040 ;
+}
+.sidebarMenuItemList::-webkit-scrollbar{
+    /* display: none; */
+    width: 1vw;
+}
+
+.sidebarMenuItem{
+    color: #404040;
+    margin: 15px 0;
+    cursor: pointer;
+    font-size: smaller;
+    font-weight: 600;
+}
+
+.sidebarMenuItem:hover{
+    color: #707070;
+}
+
+.h6InList{
+    font-weight: 700;
+    color: black;
+}
+
+
+#sidebarMenuItemHome{
+    color: red;
+}
+
+.loginAndClose{
+    display: flex;
+    flex-direction: row;
+    /* background-color: yellow; */
+}
+
+.loginAndClose::-webkit-scrollbar{
+    /* display: none; */
+}
+
+.sidebarMenuLoginTitle{
+    margin: 0vw 0;
+    height: 4vw;
+    width: auto;
+    /* background-color: red; */
+}
+
+.sidebarMenuLogin{
+    color: black;
+    /* position: absolute; */
+    position: fixed;
+    margin: 0px 0vw;
+    top: 1vw;
+    left: 1vw;
+    padding: 0;    
+    /* background-color: green; */
+}
+
+.userCircleIcon{
+    /* width: 3vw;
+    height: auto; */
+    padding: 0;
+    /* background-color: blue; */
+}
+
+#closeNavButton{
+    position:absolute;
+    top: 1.8vw;
+    left: 15vw;
+    width: 1.5vw;
+    height: auto;
+    color: black;
+    border: 2px solid black;
+    cursor: pointer;
+    /* display: none; */
+}
+
+#threeBar
+{
+    position:absolute;
+    position: fixed;
+    top:1.2vw;
+    left:4.7vw;
+    width: 1.3vw;
+    height: auto;
+    color: rgb(52, 52, 52);
+    cursor: pointer;
+    z-index: 2;
+}
+
+
 .leftPart{
     position: absolute;
     width: 70vw;
@@ -29,10 +137,9 @@
     overflow: hidden;
     top: 6vw;
 }
-.songItem
+/* .songItem
 {
-    /* background-color: aqua; */
-}
+} */
 
 
 

@@ -4,12 +4,12 @@ import "./CircularSongItemStyle.css";
 const CircularSongItem = (props) => {
     return(
         <div className="songItem">
-            <div class="card myImageCard">
-                <img src={props.songIcon} class="card-img-top myCircularImage" alt="..."/>
-                <div class="myCircularCardBody">
-                    <p class="myCircularCardText">{props.songName}</p>
+            <div className="card myImageCard">
+                <img src={props.songIcon} className="card-img-top myCircularImage" alt="..."/>
+                <div className="myCircularCardBody">
+                    <p className="myCircularCardText">{props.songName}</p>
                 </div>
-            </div>
+            </div> 
         </div>
     )
 };

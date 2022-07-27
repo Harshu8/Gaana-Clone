@@ -23,6 +23,10 @@
     cursor: pointer;
 }
 
+.myImage:hover{
+    opacity: .7;
+}
+
 .myCardText{
     margin: .2vw 0 0 .45vw;
     cursor: pointer;
